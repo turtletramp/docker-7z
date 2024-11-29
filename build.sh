@@ -1,7 +1,7 @@
 #!/bin/bash
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
-IMAGE_VERSION="1.0"
+IMAGE_VERSION="latest"
 IMAGE_NAME="turtletramp/7z-docker"
 IMAGE_TAG="${IMAGE_NAME}:${IMAGE_VERSION}"
 
